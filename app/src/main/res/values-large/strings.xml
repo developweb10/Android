@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="txt_downloading">Downloading</string>
+    <string name="txt_select_route">Please select the route</string>
+    <string name="txt_automatic">Automatic</string>
+    <string name="txt_manual">Manual</string>
+</resources>

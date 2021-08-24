@@ -1,0 +1,36 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black">
+
+
+    <com.google.android.exoplayer2.ui.PlayerView
+        android:id="@+id/pvTourVideo"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        app:auto_show="true"
+        app:resize_mode="fit"
+        app:surface_type="texture_view"
+        app:use_artwork="true"
+        app:use_controller="true" />
+
+    <ImageView
+        android:id="@+id/ivTourVideoCancel"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:background="@drawable/ic_close_new"
+        android:visibility="visible" />
+
+
+    <ProgressBar
+        android:id="@+id/pbBuffering"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:visibility="gone" />
+
+</RelativeLayout>
